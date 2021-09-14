@@ -1,3 +1,4 @@
+#jeroen , de Heer en opdracht: Pizza calculator
 pizza_groote = ['small', 'medium', 'large']
 prijs_pizza = {'small': 7, 'medium': 9, 'large': 12}
 totaal_bedrag = []
