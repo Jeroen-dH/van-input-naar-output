@@ -20,12 +20,12 @@ while order_pizza:
             totaal_bedrag.append(prijs_pizza[pizza])
             break
         if pizza not in pizza_groote:
-            print(f"I am sorry, we currently do not have {pizza}.")
+            print(f"sorry maar die hebben we niet {pizza}.")
 
     extra_pizza = input("wil je nog een andere pizza toevoegen?")
     if extra_pizza == "nee":
         for key, value in eind_bedrag.items():
-            print(f"\nYou have order a {key} pizza with {value}")
+            print(f"\nje hebt besteld: {key} pizza")
         check_order = True
         while check_order:
             print()
