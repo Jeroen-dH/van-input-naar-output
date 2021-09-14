@@ -1,6 +1,6 @@
-croisantje = 39
-stokbrood = 278
-kortingsbon = -50
+croisantje = 0.39
+stokbrood = 2.78
+kortingsbon = -0.50
 print ("Croisantjes kopen")
 croisantjes =float(input ('aantal croisantjes: '))
 print (croisantjes * croisantje) 
